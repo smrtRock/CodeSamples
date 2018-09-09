@@ -120,16 +120,16 @@
         "hash": "7d01e88e61aca57b473f32916dab31db8d8a9fff844705e7874acdffb373094f"
       },
       "logo": {
-        "uri": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-samples/scooley-gallery/ubuntu-logo/ubuntu_black-orange_hex.png",
-        "hash": "sha256:6D5614230B15A4CEAA43EDA24134365ECF20F39FE4DD8A9E0CD1DD14EB3C5B9D"
+        "uri": "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Icons_and_Logos/Suse_primary-logo/SUSE_logo_w-tag/suse_logo_w-tag_screen/suse_logo_w-tag_black.jpg",
+        "hash": "sha256:2D40C5A1EDF5370302DD8345819F24CB1CBDD2D5004E6854B158"
       },
       "symbol": {
-        "uri": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-samples/scooley-gallery/ubuntu-circle/cof_orange_hex.png",
-        "hash": "sha256:B1F8003F8F9AE56B928D7CC424F144F126EEEA6FD09FCD316E26D529394C9890"
+        "uri": "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Icons_and_Logos/Suse_primary-logo/SUSE_logo_w-tag/suse_logo_w-tag_screen/suse_logo_w-tag_black.jpg",
+        "hash": "sha256:2D40C5A1EDF5370302DD8345819F24CB1CBDD2D5004E6854B158"
       },
       "thumbnail": {
-        "uri": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-samples/scooley-gallery/ubuntu-circle/cof_orange_hex.png",
-        "hash": "sha256:B1F8003F8F9AE56B928D7CC424F144F126EEEA6FD09FCD316E26D529394C9890"
+        "uri": "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Icons_and_Logos/Suse_primary-logo/SUSE_logo_w-tag/suse_logo_w-tag_screen/suse_logo_w-tag_black.jpg",
+        "hash": "sha256:2D40C5A1EDF5370302DD8345819F24CB1CBDD2D5004E6854B158"
       }
     },
     {
@@ -143,19 +143,19 @@
       ],
       "disk": {
         "uri": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso",
-        "hash": "502283116222a2182c4613a72e03c08a550afac46e36eb46d7e2629f31b6addb"
+        "hash": "sha256:2D40C5A1EDF5370302DD8345819F24CB1CBDD2D5004E6854B158"
       },
       "logo": {
-        "uri": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-samples/scooley-gallery/ubuntu-logo/ubuntu_black-orange_hex.png",
-        "hash": "sha256:6D5614230B15A4CEAA43EDA24134365ECF20F39FE4DD8A9E0CD1DD14EB3C5B9D"
+        "uri": "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Icons_and_Logos/Suse_primary-logo/SUSE_logo_w-tag/suse_logo_w-tag_screen/suse_logo_w-tag_black.jpg",
+        "hash": "sha256:2D40C5A1EDF5370302DD8345819F24CB1CBDD2D5004E6854B158"
       },
       "symbol": {
-        "uri": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-samples/scooley-gallery/ubuntu-circle/cof_orange_hex.png",
-        "hash": "sha256:B1F8003F8F9AE56B928D7CC424F144F126EEEA6FD09FCD316E26D529394C9890"
+        "uri": "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Icons_and_Logos/Suse_primary-logo/SUSE_logo_w-tag/suse_logo_w-tag_screen/suse_logo_w-tag_black.jpg",
+        "hash": "sha256:2D40C5A1EDF5370302DD8345819F24CB1CBDD2D5004E6854B158"
       },
       "thumbnail": {
-        "uri": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-samples/scooley-gallery/ubuntu-circle/cof_orange_hex.png",
-        "hash": "sha256:B1F8003F8F9AE56B928D7CC424F144F126EEEA6FD09FCD316E26D529394C9890"
+        "uri": "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Icons_and_Logos/Suse_primary-logo/SUSE_logo_w-tag/suse_logo_w-tag_screen/suse_logo_w-tag_black.jpg",
+        "hash": "sha256:2D40C5A1EDF5370302DD8345819F24CB1CBDD2D5004E6854B158"
       }
     }
   ]
