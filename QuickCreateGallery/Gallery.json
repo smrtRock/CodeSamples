@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-tools/vmgallery/vm-gallery-schema.json",
+  "$schema": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-tools/vmgallery/vm-gallery-schema.json",
 
   "images": [
     {
@@ -172,16 +172,16 @@
         "hash": "74668cf2d542a6f6a47aab836d8128b43950f4980b4eafd99eb68663678cc10a"
       },
       "logo": {
-        "uri": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-samples/scooley-gallery/ubuntu-logo/ubuntu_black-orange_hex.png",
+        "uri": "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Icons_and_Logos/Debianopenlogo-100.png",
         "hash": "sha256:BDFC92B4D89E37681003A7CC34BD7A0B3FC2AAB780FE523F05B3"
       },
       "symbol": {
-        "uri": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-samples/scooley-gallery/ubuntu-circle/cof_orange_hex.png",
-        "hash": "sha256:B1F8003F8F9AE56B928D7CC424F144F126EEEA6FD09FCD316E26D529394C9890"
+        "uri": "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Icons_and_Logos/Debianopenlogo-100.png",
+        "hash": "sha256:BDFC92B4D89E37681003A7CC34BD7A0B3FC2AAB780FE523F05B3"
       },
       "thumbnail": {
-        "uri": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-samples/scooley-gallery/ubuntu-circle/cof_orange_hex.png",
-        "hash": "sha256:B1F8003F8F9AE56B928D7CC424F144F126EEEA6FD09FCD316E26D529394C9890"
+        "uri": "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Icons_and_Logos/Debianopenlogo-100.png",
+        "hash": "sha256:BDFC92B4D89E37681003A7CC34BD7A0B3FC2AAB780FE523F05B3"
       }
     }
   ]
