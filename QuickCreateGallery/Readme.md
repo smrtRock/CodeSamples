@@ -1,6 +1,6 @@
 # Custom Quick Create Gallery on Windows 10
 
-In this repository went with some Linux flavors i use regularly Debian, Kali, Suse, and Ubuntu.  
+In this repository went with some Linux flavors i use regularly Debian, Kali, and Ubuntu.  
 
 ## Get the Link or download the Desired OS
 
