@@ -54,14 +54,16 @@ or Create a Virtual Machine make sure it is Generation 2.
 
 ```Powershell
 [string[]]$gallerylocations = (
-    # Custom images
-    "\\contoso\vmgallerysample\contoso.json",
     # Official Windows 10 developer images
-    "https://go.microsoft.com/fwlink/?linkid=851584"
+    "https://go.microsoft.com/fwlink/?linkid=851584",
+    # Custom images
+    "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Gallery_Web.json"
     )
 $registrypath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization"
 
 Set-ItemProperty -Path $registrypath -Name GalleryLocations -Value $gallerylocations
 ```
+
+> Results should look something like this
 ![Quick Create Image](./images/QuickCreate.png)
 Have Fun
