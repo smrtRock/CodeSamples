@@ -12,13 +12,14 @@ Either an ISO from the OEM or a reputable source, the image must have a file has
 - [Debian](http://cdimage.debian.org)
 - [Kali Linux](https://www.kali.org/downloads/)
 
-or Create a Virtual Machine make sure it is Generation 2, when creating your own custom VM make sure of two things
+or Create a Virtual Machine make sure of 3 things
 
+1. Create the VM as Generation 2
 1.  Get the File Hash 
 ```powershell
 Get-FileHash -Path C:\Path\SomeVhd.vhdx -Algorithm SHA256
 ```
-2.  Get the File Data, for the last updated property
+3.  Get the File Data, for the last updated property
 ```powershell
 Get-Date -UFormat "%Y-%m-%dT%TZ" | clip.exe
 ```
