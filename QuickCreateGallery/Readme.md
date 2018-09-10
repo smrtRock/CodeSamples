@@ -12,7 +12,16 @@ Either an ISO from the OEM or a reputable source, the image must have a file has
 - [Debian](http://cdimage.debian.org)
 - [Kali Linux](https://www.kali.org/downloads/)
 
-or Create a Virtual Machine make sure it is Generation 2.  
+or Create a Virtual Machine make sure it is Generation 2, when creating your own custom VM make sure of two things
+
+1.  Get the File Hash 
+```powershell
+Get-FileHash -Path C:\Path\SomeVhd.vhdx -Algorithm SHA256
+```
+2.  Get the File Data, for the last updated property
+```powershell
+Get-Date -UFormat "%Y-%m-%dT%TZ" | clip.exe
+```
 
 ## Prepare the JSON file 
 
