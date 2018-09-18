@@ -116,8 +116,8 @@
         "\"Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing. It is maintained and funded by Offensive Security Ltd. Mati Aharoni, Devon Kearns and Raphaël Hertzog are the core developers."
       ],
       "disk": {
-        "uri": "http://cdimage.kali.org/kali-2018.3a/kali-linux-light-2018.3a-i386.iso",
-        "hash": "sha256:c207f43492282e04fa040e32a2cdb5ccb58b73654eaab33bd0ac5f9dc10d587d"
+        "uri": "http://cdimage.kali.org/kali-2018.3a/kali-linux-light-2018.3a-amd64.iso",
+        "hash": "sha256:7d5c3b2797e86ef3791bf01ba3b792ec161417f9e0ea9f3f117f9a94f3df9ec2"
       },
       "logo": {
         "uri": "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Icons_and_Logos/Kali_Linux_2_0_wordmark.png",
