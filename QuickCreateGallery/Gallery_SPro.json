@@ -1,0 +1,242 @@
+{
+  "$schema": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-tools/vmgallery/vm-gallery-schema.json",
+
+  "images": [
+      {
+      "name": "Ubuntu 18.10 LTS",
+      "version": "18.04.1 LTS",
+      "locale": "en-us",
+      "publisher": "Canonical",
+      "lastUpdated": "2018-09-08T08:31:00:00",
+      "description": [
+        "Ubuntu is used by thousands of development teams around the world because of its versatility, reliability and extensive developer libraries.",
+        "\r\n\r\n",
+        "This LTS release comes with five years of support meaning that you can be assured of secure and dependable operating system giving you the fastest route from development to deployment on desktop, devices, server, cloud and IoT edge.",
+        "\r\n\r\n",
+        "Ubuntu is free and will always be, and you have the option to get support and Landscape from Canonical. See https://www.ubuntu.com/legal for terms and conditions."
+   ],
+      "disk": {
+        "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\isos\\cosmic-server-amd64.iso",
+        "hash": "sha256:b3fcba63dc8976cb46ff52ff1a768ff3e9ce90f955f372c3b435454ee0cefb5f"
+      },
+      "logo": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Ubuntu\\circle-of-friends-web\\PNG\\cof_orange_hex.png",
+        "hash": "sha256:6D5614230B15A4CEAA43EDA24134365ECF20F39FE4DD8A9E0CD1DD14EB3C5B9D"
+      },
+      "symbol": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Ubuntu\\circle-of-friends-web\\PNG\\cof_white-black_hex.png",
+        "hash": "sha256:B1F8003F8F9AE56B928D7CC424F144F126EEEA6FD09FCD316E26D529394C9890"
+      },
+      "thumbnail": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Ubuntu\\ubuntu_thumbnail.jpg",
+        "hash": "sha256:5703AD8764EC672199F3E29ABC99975716775BB1F30A11836CBB95F5701A3D84"
+      },
+      "details": [
+        {
+      "name": "License",
+      "value": "https://www.ubuntu.com/licensing"
+      },
+        {
+      "name": "",
+      "value": "Cosmic Server"
+      },
+      {
+        "name": "ISO Source",
+        "value": "Local "
+      }
+    ]
+    },
+    {
+      "name": "Ubuntu 18.04 LTS",
+      "version": "18.04.1 LTS",
+      "locale": "en-us",
+      "publisher": "Canonical",
+      "lastUpdated": "2018-09-08T08:31:00:00",
+      "description": [
+        "Ubuntu is used by thousands of development teams around the world because of its versatility, reliability and extensive developer libraries.",
+        "\r\n\r\n",
+        "This LTS release comes with five years of support meaning that you can be assured of secure and dependable operating system giving you the fastest route from development to deployment on desktop, devices, server, cloud and IoT edge.",
+        "\r\n\r\n",
+        "Ubuntu is free and will always be, and you have the option to get support and Landscape from Canonical. See https://www.ubuntu.com/legal for terms and conditions."
+   ],
+      "disk": {
+        "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\isos\\bionic-server-amd64.iso",
+        "hash": "sha256:e927472309db92887c390552bad860b322a8a1bbd2e55d734387c39ef767f65e"
+      },
+      "logo": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Ubuntu\\circle-of-friends-web\\PNG\\cof_orange_hex.png",
+        "hash": "sha256:6D5614230B15A4CEAA43EDA24134365ECF20F39FE4DD8A9E0CD1DD14EB3C5B9D"
+      },
+      "symbol": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Ubuntu\\circle-of-friends-web\\PNG\\cof_white-black_hex.png",
+        "hash": "sha256:B1F8003F8F9AE56B928D7CC424F144F126EEEA6FD09FCD316E26D529394C9890"
+      },
+      "thumbnail": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Ubuntu\\ubuntu_thumbnail.jpg",
+        "hash": "sha256:5703AD8764EC672199F3E29ABC99975716775BB1F30A11836CBB95F5701A3D84"
+      },
+      "details": [
+        {
+      "name": "License",
+      "value": "https://www.ubuntu.com/licensing"
+      },
+        {
+      "name": "",
+      "value": "Bionic Beaver"
+      },
+      {
+        "name": "ISO Source",
+        "value": "Local "
+      }
+    ]
+    },
+    {
+      "name": "Ubuntu 16.04.4 LTS",
+      "version": "16.04.4 LTS",
+      "locale": "en-us",
+      "publisher": "Canonical",
+      "lastUpdated": "2018-09-08T08:31:00:00",
+      "description": [
+        "Ubuntu is used by thousands of development teams around the world because of its versatility, reliability and extensive developer libraries.",
+        "\r\n\r\n",
+        "This LTS release comes with five years of support meaning that you can be assured of secure and dependable operating system giving you the fastest route from development to deployment on desktop, devices, server, cloud and IoT edge.",
+        "\r\n\r\n",
+        "Ubuntu is free and will always be, and you have the option to get support and Landscape from Canonical. See https://www.ubuntu.com/legal for terms and conditions."
+   ],
+      "disk": {
+        "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\isos\\ubuntu-16.04.4-server-arm64.iso",
+        "hash": "8944bfc8fe06bf8f466ff07f423dc3dff94e2161"
+      },
+      "logo": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Ubuntu\\circle-of-friends-web\\PNG\\cof_orange_hex.png",
+        "hash": "sha256:6D5614230B15A4CEAA43EDA24134365ECF20F39FE4DD8A9E0CD1DD14EB3C5B9D"
+      },
+      "symbol": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Ubuntu\\circle-of-friends-web\\PNG\\cof_white-black_hex.png",
+        "hash": "sha256:B1F8003F8F9AE56B928D7CC424F144F126EEEA6FD09FCD316E26D529394C9890"
+      },
+      "thumbnail": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Ubuntu\\ubuntu_thumbnail.jpg",
+        "hash": "sha256:5703AD8764EC672199F3E29ABC99975716775BB1F30A11836CBB95F5701A3D84"
+      },
+      "details": [
+        {
+      "name": "License",
+      "value": "https://www.ubuntu.com/licensing"
+      },
+        {
+      "name": "",
+      "value": "Xenial Server"
+      },
+      {
+        "name": "ISO Source",
+        "value": "Local "
+      }
+    ]
+    },
+    {
+      "name": "[Local] - Kali",
+      "version": "1.0",
+      "locale": "en-us",
+      "publisher": "Kali",
+      "lastUpdated": "2018-09-08T08:31:00:00",
+      "description": [
+        "[Local] \"Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing. It is maintained and funded by Offensive Security Ltd. Mati Aharoni, Devon Kearns and Rapha�l Hertzog are the core developers."
+      ],
+      "disk": {
+        "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\isos\\kali-linux-2018.3a-amd64.iso",
+        "hash": "sha256:61bc17ee83ffa12e674af35503181bb336e943ccefac90805807f4bf0137e4b2"
+      },
+      "logo": {
+        "uri": "C:\\Users\\User\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Kali_Linux_2_0_wordmark.png",
+        "hash": "sha256:97A3942C41572C0E5CD98AD947209435E8A358DF4C64E60ABD775B1DA49A47F7"
+      },
+      "symbol": {
+        "uri": "C:\\Users\\User\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Kali_Linux_2_0_wordmark.png",
+        "hash": "sha256:97A3942C41572C0E5CD98AD947209435E8A358DF4C64E60ABD775B1DA49A47F7"
+      },
+      "thumbnail": {
+        "uri": "C:\\Users\\User\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\KaliLinux.png",
+        "hash": "sha256:3B22F85E5A013C6B3018AA5C950F3D56D72912E90828CAFC30EDD4E56B886867"
+      }
+    },
+    {
+      "name": "[Local] - Debian Full",
+      "version": "9.5",
+      "locale": "en-us",
+      "publisher": "Debian",
+      "lastUpdated": "2018-09-08T08:31:00:00",
+      "description": [
+        "[Local] - Debian (/'d?bi?n/) is a Unix-like computer operating system that is composed entirely of free software, and packaged by a group of individuals participating in the Debian Project. The Debian Project was first announced on August 16, 1993 by Ian Murdock. Debian 0.01 was released on September 15, 1993, and the first stable release was made in 1996. The Debian stable release branch is the most popular Debian edition for personal computers and network servers, and has been used as a base for many other distributions. "
+      ],
+      "disk": {
+        "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\isos\\debian-9.5.0-amd64-DVD-1.iso",
+        "hash": "sha256:1ad91cc21c0986ebed217200a74843243f43c320c2451837f164af9681accfcd"
+      },
+      "logo": {
+        "uri": "C:\\Users\\User\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Debianopenlogo-100.png",
+        "hash": "sha256:BDFC92B4D89E37681003A7CC34BD7A0B3FC2AAB780FE523F05B355BF25ABB335"
+      },
+      "symbol": {
+        "uri": "C:\\Users\\User\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Debianopenlogo-100.png",
+        "hash": "sha256:BDFC92B4D89E37681003A7CC34BD7A0B3FC2AAB780FE523F05B355BF25ABB335"
+      },
+      "thumbnail": {
+        "uri": "C:\\Users\\User\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Debianopenlogo-100.png",
+        "hash": "sha256:BDFC92B4D89E37681003A7CC34BD7A0B3FC2AAB780FE523F05B355BF25ABB335"
+      }
+    },
+    {
+      "name": "[Local] Open SUSE Leap",
+      "version": "15.0 GNOME",
+      "locale": "en-us",
+      "publisher": "Open SUSE",
+      "lastUpdated": "2018-09-08T08:31:00:00",
+      "description": [
+        "[Local] The Server image allows you to try Suse  without changing your computer at all, and at your option to install."
+      ],
+      "disk": {
+        "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\openSUSE-Leap-15.0-DVD-x86_64.iso",
+        "hash": "SHA256:c477428c7830ca76762d2f78603e13067c33952b936ff100189523e1fabe5a77"
+      },
+      "logo": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Suse_primary-logo\\SUSE_logo_w-tag\\suse_logo_w-tag_screen\\suse_logo_w-tag_color.png",
+        "hash": "sha256:1A6490F04B6487687D0661A6C01C2D060DCF20DAB4B383C2A92F68E58C6111EB"
+      },
+      "symbol": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Suse_primary-logo\\SUSE_logo_w-tag\\suse_logo_w-tag_screen\\suse_logo_w-tag_color.png",
+        "hash": "sha256:1A6490F04B6487687D0661A6C01C2D060DCF20DAB4B383C2A92F68E58C6111EB"
+      },
+      "thumbnail": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Suse_primary-logo\\SUSE_logo_w-tag\\suse_logo_w-tag_screen\\suse_logo_w-tag_color.png",
+        "hash": "sha256:1A6490F04B6487687D0661A6C01C2D060DCF20DAB4B383C2A92F68E58C6111EB"
+      }
+    },
+    {
+      "name": "[Local] Open SUSE Tumbleweed",
+      "version": "15.0 GNOME",
+      "locale": "en-us",
+      "publisher": "Open SUSE",
+      "lastUpdated": "2018-09-08T08:31:00:00",
+      "description": [
+        "[Local] SUSE Linux (/ˈsuːsə/ or /ˈsuːzə/ German: [ˈzuːzə]) is a computer operating system. It is built on top of the free and open source Linux kernel and is distributed with system and application software from other open source projects. SUSE Linux is of German origin, basically an acronym of “Software und System-Entwicklung” (software and systems development), and was mainly developed in Europe. The first version appeared in early 1994, making SUSE one of the oldest existing commercial distributions. It is known for its YaST configuration tool. "
+      ],
+      "disk": {
+        "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\openSUSE-Tumbleweed-DVD-x86_64-Snapshot20180917-Media.iso",
+        "hash": "SHA256:7a5c9796df91664b51d2283571e2c4d2e926b7dc237a93aa096122c0796882bf"
+      },
+      "logo": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Suse_primary-logo\\SUSE_logo_w-tag\\suse_logo_w-tag_screen\\suse_logo_w-tag_color.png",
+        "hash": "sha256:1A6490F04B6487687D0661A6C01C2D060DCF20DAB4B383C2A92F68E58C6111EB"
+      },
+      "symbol": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Suse_primary-logo\\SUSE_logo_w-tag\\suse_logo_w-tag_screen\\suse_logo_w-tag_color.png",
+        "hash": "sha256:1A6490F04B6487687D0661A6C01C2D060DCF20DAB4B383C2A92F68E58C6111EB"
+      },
+      "thumbnail": {
+        "uri": "C:\\Users\\marcu\\source\\repos\\CodeSamples\\QuickCreateGallery\\Icons_and_Logos\\Suse_primary-logo\\SUSE_logo_w-tag\\suse_logo_w-tag_screen\\suse_logo_w-tag_color.png",
+        "hash": "sha256:1A6490F04B6487687D0661A6C01C2D060DCF20DAB4B383C2A92F68E58C6111EB"
+      }
+    }
+  ]
+}
