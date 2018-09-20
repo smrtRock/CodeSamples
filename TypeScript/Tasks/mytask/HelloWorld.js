@@ -1,4 +1,3 @@
-"use strict";
 var Startup = /** @class */ (function () {
     function Startup() {
     }
