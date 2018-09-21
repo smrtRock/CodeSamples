@@ -15,7 +15,7 @@ if ($kaliHash.RawContent.Contains($hash))
     $content = (get-content .\Gallery_Local.json) |  ConvertFrom-Json 
     foreach ($image in $content.images)
     {
-        if ($image.name -eq "Kali - Weekly")
+        if ($image.name -eq "[Local] - Kali - Weekly")
         {
             $image.disk.uri = $kaliOutFile
             $image.disk.hash = $hash.Hash
