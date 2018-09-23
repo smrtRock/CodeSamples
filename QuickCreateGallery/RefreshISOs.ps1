@@ -4,7 +4,7 @@ $weekNumber = $cultureInfo.Calendar.GetWeekOfYear($(Get-Date), $cultureInfo.Date
 $currentKali = "kali-linux-$((Get-date).year)-W$($weekNumber)-amd64.iso"
 $kaliUrl = "https://cdimage.kali.org/kali-weekly/$($currentKali)"
 $kaliOutFile = "C:\Users\Public\Documents\Hyper-V\ISOs\$($currentKali)"
-Invoke-WebRequest $kaliUrl -UseBasicParsing -OutFile $kaliOutFile
+Invoke-WebRequest $kaliUrl -UseBasicParsing -OutFile $kaliOutFile 
 
 ## Create the Hash
 $kaliHash = Invoke-WebRequest "https://cdimage.kali.org/kali-weekly/SHA256SUMS" -UseBasicParsing
