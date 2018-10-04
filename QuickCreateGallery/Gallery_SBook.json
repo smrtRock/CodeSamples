@@ -24,18 +24,18 @@
             },
             "disk": {
               "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\en_windows_server_2012_r2_with_update_x64_dvd_6052708.iso",
-              "hash": "sha256:7B389BE8E691984B913C1985CBF35732A525F859"
+              "hash": "sha256:F351E89EB88A96AF4626CEB3450248B8573E3ED5924A4E19EA891E6003B62E4E"
             },
             "logo": {
-              "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\500px-Windows_Server_2012_logo.svg.png",
-              "hash": "sha256:DD447FFF44D1F060FD700F618704AC3E986CAC4DD56C9FDE1DF05BA2018E30EB"
+              "uri": "https://en.wikipedia.org/wiki/Windows_Server#/media/File:Windows_Server.png",
+              "hash": "sha256:FFE670DFCC91C673AE4FADA956F109722CAFA6EF017372FCCFC9CA2F25FBFD07"
             },
             "symbol": {
-              "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\500px-Windows_Server_2012_logo.svg.png",
+              "uri": "https://en.wikipedia.org/wiki/Windows_Server#/media/File:Windows_Server.png",
               "hash": "sha256:DD447FFF44D1F060FD700F618704AC3E986CAC4DD56C9FDE1DF05BA2018E30EB"
             },
             "thumbnail": {
-              "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\Start_screen_on_Windows_Server_2012.png",
+              "uri": "https://en.wikipedia.org/wiki/Windows_Server_2012#/media/File:Start_screen_on_Windows_Server_2012.png",
               "hash": "sha256:CE0655EB4192237A116F07F35BC67824EF6AF44934BD505335D3632F3841A0AA"
             },
             "details": [
