@@ -67,7 +67,7 @@ Get-Date -UFormat "%Y-%m-%dT%TZ" | clip.exe
     # Official Windows 10 developer images
     "https://go.microsoft.com/fwlink/?linkid=851584",
     # Custom images
-    "https://github.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Gallery_Web.json"
+    "https:///raw.githubusercontent.com/smrtRock/CodeSamples/raw/master/QuickCreateGallery/Gallery_Web.json"
     )
 $registrypath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization"
 
