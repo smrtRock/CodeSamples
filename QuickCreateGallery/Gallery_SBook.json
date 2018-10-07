@@ -24,18 +24,18 @@
             },
             "disk": {
               "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\en_windows_server_2012_r2_with_update_x64_dvd_6052708.iso",
-              "hash": "sha256:7B389BE8E691984B913C1985CBF35732A525F859"
+              "hash": "sha256:F351E89EB88A96AF4626CEB3450248B8573E3ED5924A4E19EA891E6003B62E4E"
             },
             "logo": {
-              "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\500px-Windows_Server_2012_logo.svg.png",
-              "hash": "sha256:DD447FFF44D1F060FD700F618704AC3E986CAC4DD56C9FDE1DF05BA2018E30EB"
+              "uri": "https://commons.wikimedia.org/wiki/File:Windows_Server_2012_logo.svg#/media/File:Windows_Server_2012_logo.svg",
+              "hash": "sha256:74D52A3991F88055E14936302362E2359E85EFE30F45CF053B64B34AC3A5B512"
             },
             "symbol": {
-              "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\500px-Windows_Server_2012_logo.svg.png",
-              "hash": "sha256:DD447FFF44D1F060FD700F618704AC3E986CAC4DD56C9FDE1DF05BA2018E30EB"
+              "uri": "https://en.wikipedia.org/wiki/Windows_Server#/media/File:Windows_Server.png",
+              "hash": "sha256:FFE670DFCC91C673AE4FADA956F109722CAFA6EF017372FCCFC9CA2F25FBFD07"
             },
             "thumbnail": {
-              "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\Start_screen_on_Windows_Server_2012.png",
+              "uri": "https://upload.wikimedia.org/wikipedia/en/e/ed/Start_screen_on_Windows_Server_2012.png",
               "hash": "sha256:CE0655EB4192237A116F07F35BC67824EF6AF44934BD505335D3632F3841A0AA"
             },
             "details": [
@@ -48,53 +48,6 @@
                 "value": "Copyright (c) Microsoft Corporation. All rights reserved."
               }
             ]
-          },
-          {
-        "name": "[Local] Windows Server 1803",
-        "version": "1803",
-        "locale": "en-US",
-        "publisher": "Microsoft",
-        "lastUpdated": "2017-11-04T17:00:00Z",
-        "description": [
-          "This evaluation copy of the Windows Server 1803 (also referred to as the Windows Server Fall Creators Update) will enable you to try out Windows Server 2016 with an evaluation copy of Windows.",
-          "\r\n\r\n",
-          "This evaluation copy will expire after a pre-determined amount of time.",
-          "\r\n",
-          "The license terms for the Windows Server VMs supersede any conflicting Windows license terms.  See https://aka.ms/windowsdevelopervirtualmachineeula for any additional details.",
-          "\r\n\r\n"
-        ],
-        "config": {
-          "secureBoot": "true"
-        },
-        "requirements": {
-          "diskSpace": "28290580480"
-        },
-        "disk": {
-          "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\en_windows_server_version_1803_x64_dvd_12063476.iso",
-          "hash": "sha256:7B389BE8E691984B913C1985CBF35732A525F859"
-        },
-        "logo": {
-          "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\500px-Windows_Server.png",
-          "hash": "sha256:3B8116D11150A2BA8607897CB04D70994AE11082C8C566148670585C79101F62"
-        },
-        "symbol": {
-          "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\500px-Windows_Server.png",
-          "hash": "sha256:3B8116D11150A2BA8607897CB04D70994AE11082C8C566148670585C79101F62"
-        },
-        "thumbnail": {
-          "uri": "C:\\Users\\Public\\Documents\\Hyper-V\\ISOs\\Start_screen_on_Windows_Server_2012.png",
-          "hash": "sha256:CE0655EB4192237A116F07F35BC67824EF6AF44934BD505335D3632F3841A0AA"
-        },
-        "details": [
-          {
-            "name": "Edition",
-            "value": "Windows Server 1803"
-          },
-          {
-            "name": "Copyright",
-            "value": "Copyright (c) Microsoft Corporation. All rights reserved."
           }
         ]
-      }
-    ]
 } 

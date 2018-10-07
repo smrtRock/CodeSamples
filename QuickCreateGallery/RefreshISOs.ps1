@@ -4,12 +4,12 @@ $weekNumber = $cultureInfo.Calendar.GetWeekOfYear($(Get-Date), $cultureInfo.Date
 $currentKali = "kali-linux-$((Get-date).year)-W$($weekNumber)-amd64.iso"
 $kaliUrl = "https://cdimage.kali.org/kali-weekly/$($currentKali)"
 $kaliOutFile = "C:\Users\Public\Documents\Hyper-V\ISOs\$($currentKali)"
-Invoke-WebRequest $kaliUrl -UseBasicParsing -OutFile $kaliOutFile
+Invoke-WebRequest $kaliUrl -UseBasicParsing -OutFile $kaliOutFile 
 
 ## Create the Hash
 $kaliHash = Invoke-WebRequest "https://cdimage.kali.org/kali-weekly/SHA256SUMS" -UseBasicParsing
 $hash = Get-FileHash $kaliOutFile -Algorithm SHA256 
-if ($kaliHash.RawContent.Contains($hash))
+if ($kaliHash.RawContent.Contains($hash.Hash.ToLower()))
 {
     ## Update the Gallery File
     $content = (get-content .\Gallery_Local.json) |  ConvertFrom-Json 
@@ -18,7 +18,7 @@ if ($kaliHash.RawContent.Contains($hash))
         if ($image.name -eq "[Local] - Kali - Weekly")
         {
             $image.disk.uri = $kaliOutFile
-            $image.disk.hash = $hash.Hash
+            $image.disk.hash = $("sha256:" + $hash.Hash)
             $image.lastUpdated = Get-Date -UFormat "%Y-%m-%dT%TZ"
         }
     }
