@@ -1,0 +1,135 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-09-23T21:26:53.258Z",
+    "end": "2018-09-23T21:26:53.276Z",
+    "duration": 18,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "2a1f34ca-3774-4f64-9aa2-1d2d685fe885",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "38570c1e-bd98-4914-aea7-6a6b28ff6a88",
+        "title": "Calc test suite",
+        "fullFile": "C:\\Users\\marcu\\sources\\repos\\CodeSamples\\TypeScript\\SetupEnv\\GulpSetup\\src\\js\\test\\Calc.test.js",
+        "file": "\\src\\js\\test\\Calc.test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Can Add",
+            "fullTitle": "Calc test suite Can Add",
+            "timedOut": false,
+            "duration": 1,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "var result = calc.add(5, 5);\nresult.should.equals(10, 'Should return: 10, but returned: ${result}');",
+            "err": {},
+            "isRoot": false,
+            "uuid": "01ef5ce7-020b-4d2a-9ed2-e4ec1f3b5daa",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Can subtract",
+            "fullTitle": "Calc test suite Can subtract",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "var result = calc.subtract(20, 10);\nresult.should.equals(10, 'Should return: 10, but returned: ${result}');",
+            "err": {},
+            "isRoot": false,
+            "uuid": "b7e990cc-2464-4243-949d-1e3a7bb8bb65",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "01ef5ce7-020b-4d2a-9ed2-e4ec1f3b5daa",
+          "b7e990cc-2464-4243-949d-1e3a7bb8bb65"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 1,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      },
+      {
+        "uuid": "1062f08b-56c1-42a6-96da-ca2892f22e6c",
+        "title": "Hello World test suite",
+        "fullFile": "C:\\Users\\marcu\\sources\\repos\\CodeSamples\\TypeScript\\SetupEnv\\GulpSetup\\src\\js\\test\\HelloWorld.test.js",
+        "file": "\\src\\js\\test\\HelloWorld.test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Can say Hello world",
+            "fullTitle": "Hello World test suite Can say Hello world",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "var result = new HelloWorld_1.HelloWorld().helloWorld();\nresult.should.equals('Hello World', 'Should return: Hello World, but returned $result');",
+            "err": {},
+            "isRoot": false,
+            "uuid": "1da8d458-1fba-44a4-a02a-0edb7204c36f",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "1da8d458-1fba-44a4-a02a-0edb7204c36f"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
