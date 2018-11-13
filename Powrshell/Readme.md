@@ -15,8 +15,8 @@ We need to put this cert somewhere we can trust it to do this we need to place t
 ```powershell
 $a = gci Cert:\CurrentUser\My\ | where Subject -eq CN=sample.contoso.com
 Export-PfxCertificate $a -FilePath $env:TEMP\ccsigncert.pfx -Password (ConvertTo-SecureString "pass@word1" -Force -AsPlainText)
-Import-PfxCertificate $env:temp\ccsigncert.pfx -CertStoreLocation Cert:\LocalMachine\Trust
-Import-PfxCertificate $env:temp\ccsigncert.pfx -CertStoreLocation Cert:\LocalMachine\TrustedPublisher
+Import-PfxCertificate $env:temp\ccsigncert.pfx -CertStoreLocation Cert:\LocalMachine\Trust -Password (ConvertTo-SecureString "pass@word1" -Force -AsPlainText)
+Import-PfxCertificate $env:temp\ccsigncert.pfx -CertStoreLocation Cert:\LocalMachine\TrustedPublisher -Password (ConvertTo-SecureString "pass@word1" -Force -AsPlainText)
 ```
 
 ## And Then
