@@ -48,3 +48,12 @@ Set-ExecutionPolicy RemoteSigned -Scop LocalMachine -Force
 ```powershell
 Set-AuthenticodeSignature -Certificate (gci Cert:\CurrentUser\My\ -CodeSigningCert ) -FilePath .\Microsoft.PowerShell_profile.ps1
 ```
+
+### Bonus
+
+For the profile in this repository I have posh-git and get-childitemcoolor modules installed
+
+```powershell
+Install-Module posh-git -Force
+Install-Module Get-ChildItemColor -Force
+```
