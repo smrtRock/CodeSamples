@@ -2,7 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
+**/.vs
+**/bin
+**/obj
+**/packages
 **/**.js
 **/node_modules
 **package-lock.json
