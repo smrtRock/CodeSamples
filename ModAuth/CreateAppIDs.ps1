@@ -14,18 +14,6 @@
         [securestring]
         $secret
     )
-    Begin 
-    {
-        if ($null -eq $subscriptionID)
-        {
-            $value = Read-Host "Do you have any more than one subscriptions, provide the subscription id to associate this application with..." 
-            $subscriptionID = $value; 
-        }
-        else {
-                Write-Output "The default Subscription will be used"
-        }
-        }
-    }
     Process {
         # Sign in to Azure.
         # Login-AzureRmAccount

@@ -5,9 +5,9 @@ Notes from my reading of [Microsoft Press: Modern Authentication with Azure Acti
 ## Highlights
 
 - Prepare basic apps
-  - [Web](/ManualFullFramework)
-  - [Core Web](/ManualCore3)
+  - [Web](/ModAuth/ModAuthSamples//ManualFullFramework)
+  - [Core Web](/ModAuth/ModAuthSamples/ManualCore3)
   - SPA
   - Python
-- Script to create App IDs
+- [Script to create App IDs](/ModAuth/CreateAppIDs.ps1)
 - Configuration of basic apps
