@@ -3,18 +3,19 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OpenIdConnect;
 using Owin;
 
-namespace ManualFullFramework.App_Start
+namespace ManualFullFramework
 {
     public partial class Startup
     {
-        public void COnfigureAuth(IAppBuilder app)
+        public  void ConfigureAuth(IAppBuilder app)
         {
-            app.SetDefaultSignInAsAuthenticationType(CookieAuthenticationDefaults.AuthenticationType);
+            app.SetDefaultSignInAsAuthenticationType(
+                CookieAuthenticationDefaults.AuthenticationType);
             app.UseCookieAuthentication(new CookieAuthenticationOptions());
             app.UseOpenIdConnectAuthentication(
                 new OpenIdConnectAuthenticationOptions
                 {
-                    ClientId = "4229dd83-7065-4a9f-b1e8-f2df7d25485a",
+                    ClientId = "94bd8f5b-0a79-445a-9ae2-dbfcf2d5c3dc",
                     Authority = "https://login.microsoftonline.com/"
                 });
         }

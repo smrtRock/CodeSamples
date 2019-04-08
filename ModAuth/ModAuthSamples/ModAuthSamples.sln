@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualFullFramework", "ManualFullFramework\ManualFullFramework.csproj", "{170BB58B-EF8A-400E-9954-D20B98EE1B9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualCore", "ManualCore3\ManualCore.csproj", "{278D65D5-23A3-43CB-9E53-E48196C96676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManualCore", "ManualCore3\ManualCore.csproj", "{278D65D5-23A3-43CB-9E53-E48196C96676}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

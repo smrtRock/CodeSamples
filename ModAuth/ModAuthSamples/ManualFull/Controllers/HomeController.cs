@@ -1,9 +1,12 @@
-﻿using System.Security.Claims;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using System.Web.Mvc;
-using ClaimTypes = System.IdentityModel.Claims.ClaimTypes;
 
-namespace ManualFullFramework.Controllers
+namespace ManualFull.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -18,11 +21,9 @@ namespace ManualFullFramework.Controllers
             return View();
         }
 
-        [Authorize]
         public ActionResult Contact()
         {
-            string userFirstName = ClaimsPrincipal.Current.FindFirst(ClaimTypes.GivenName).Value;
-            ViewBag.Message = $"Welcome {userFirstName}!";
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
