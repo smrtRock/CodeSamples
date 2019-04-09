@@ -16,7 +16,7 @@ namespace ManualFullFramework
                 new OpenIdConnectAuthenticationOptions
                 {
                     ClientId = "94bd8f5b-0a79-445a-9ae2-dbfcf2d5c3dc",
-                    Authority = "https://login.microsoftonline.com/"
+                    Authority = "https://login.microsoftonline.com/smrtrock.com"
                 });
         }
     }
