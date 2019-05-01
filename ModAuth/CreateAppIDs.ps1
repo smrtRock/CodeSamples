@@ -51,5 +51,7 @@
         Write-Output "Tenant ID:" (Get-AzureRmContext).Tenant.TenantId
         Write-Output "Application ID:" $azureAdApplication.ApplicationId.Guid
         Write-Output "Application Secret:" $secret
+
+
     }
 }
