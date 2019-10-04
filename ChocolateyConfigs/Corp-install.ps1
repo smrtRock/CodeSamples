@@ -10,6 +10,6 @@ git clone https://github.com/smrtrock/codesamples
 choco source enable -n=chocolatey
 choco install $env:USERPROFILE\source\repos\codesamples\ChocolateyConfigs\Corp.config -y
 choco source disable -n=chocolatey
-copy $env:USERPROFILE\source\repos\codesamples\Powershell\Microsoft.PowerShell_profile.ps1 C:\Users\marcusf.NORTHAMERICA\Documents\WindowsPowerShell 
+copy $env:USERPROFILE\source\repos\codesamples\Powershell\Microsoft.PowerShell_profile.ps1 $env:USERPROFILE\Documents\WindowsPowerShell 
 Install-Module posh-git -Force
 Install-Module get-childitemcolor -Force
