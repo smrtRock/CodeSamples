@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "BlazorWasm"
+		},
+		{
+			"path": "myFirstBlazorTODO"
 		}
 	],
 	"settings": {}
