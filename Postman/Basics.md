@@ -9,7 +9,7 @@
 
 #### URI
 
-    POST https://login.microsoftonline.com/:tenantid/owuth2/token`
+    POST https://login.microsoftonline.com/:tenantid/owuth2/token
 
 #### URI Params
 
@@ -17,15 +17,7 @@
 
 #### BODY
 
-```
-    tenantID: adccdb0e-0c48-49c8-967b-482a191886ac
-    subscriptionID: 5a243c4b-c40a-41d4-85c9-5574124d8250
-    clientSecret: 0Vw.xFPFYXn2P._14NO4wxn-Yd32045-~t
-    clientID: 5627a0a2-0aeb-471e-b09a-0551b0425578
-    resource: https://management.azure.com
-    grantType: client_credentials
-
-
+```properties
     grant_type: client_credentials
     client_id: appid
     client_secret: thumprint or secret associated with client_id
@@ -34,13 +26,41 @@
 
 #### TESTS
 
+```javascript
     var json = JSON.parse(responseBody):
     tests["Get AAD Token"] = !json.error && responseBody !== '' && responseBody !== '{}' && json.access_token !== '';
     postman.setEnvironmentVariable("bearerToken", json.access_token);
+```
 
-#### Get Data Lake Analytics Account
+#### Data Lake Analytics
 
 #### Create Job
+
+```http
+POST https://{accountName}.{adlaJobDnsSuffix}/BuildJob?api-version=2016-11-01
+```
+
+##### URI Parameters
+
+```properties
+accountName: srthupiltestadla
+adlaDnsJobSuffix: 
+jobIdentity
+apiVersion
+```
+
+###### Request Body
+
+```properties
+name: testJob
+degreeOfParallelism
+degreeOfParallelismPercent
+logFilePatterns
+priority
+properties
+related
+type
+```
 
 ##### References
 
