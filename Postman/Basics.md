@@ -21,8 +21,8 @@
 
 #### TESTS
 
-    var json = JSON.parse(responseBody):
-    tests("Get AAD Token") = !json.error && responseBody !== '' && responseBody !== '{}' && json.access_token !== '';
+    var json = JSON.parse(responseBody);
+    tests["Get AAD Token"] = !json.error && responseBody !== '' && responseBody !== '{}' && json.access_token !== '';
     postman.setEnvironmentVariable("bearerToken", json.access_token);
 
 #### Get Data Lake Analytics Account
