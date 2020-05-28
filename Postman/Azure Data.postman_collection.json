@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "3517b4da-e43c-4296-95bb-a89a8fc57fbc",
+		"name": "Azure Data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SubmitJob",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"type\": \"USql\",\r\n  \"properties\": {\r\n    \"runtimeVersion\": \"test_runtime_version\",\r\n    \"script\": \"test_script\",\r\n    \"type\": \"USql\"\r\n  },\r\n  \"name\": \"test_name\",\r\n  \"degreeOfParallelism\": 1,\r\n  \"priority\": 1,\r\n  \"logFilePatterns\": [\r\n    \"test_log_file_pattern_1\",\r\n    \"test_log_file_pattern_2\"\r\n  ],\r\n  \"related\": {\r\n    \"pipelineId\": \"076713da-9018-41ae-a3bd-9eab14e54d09\",\r\n    \"pipelineName\": \"test_pipeline_name\",\r\n    \"pipelineUri\": \"https://strhupiltestadfs.azuredatalakestore.eaglex.ic.gov/446a87ffc-1f8c-4e17-9195-586c6ac09ad6\",\r\n    \"runId\": \"67034c12-b250-468e-992d-39fb978bde2c\",\r\n    \"recurrenceId\": \"67034c12-b250-468e-992d-39fb978bde2d\",\r\n    \"recurrenceName\": \"test_recurrence_name\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://srthupiltestadls.azuredatalakestore.eaglex.ic.gov/Jobs/446a87ffc-1f8c-4e17-9195-586c6ac09ad6?api-version=2019-11-01-preview",
+					"protocol": "https",
+					"host": [
+						"srthupiltestadls",
+						"azuredatalakestore",
+						"eaglex",
+						"ic",
+						"gov"
+					],
+					"path": [
+						"Jobs",
+						"446a87ffc-1f8c-4e17-9195-586c6ac09ad6"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "api-version",
+							"value": "2019-11-01-preview"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get AAD Auth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "grant_type",
+							"value": "{{grantType}}",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "{{clientID}}",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "resource",
+							"value": "{{resource}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.microsoftonline.com/:tenantid/owuth2/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"microsoftonline",
+						"com"
+					],
+					"path": [
+						":tenantid",
+						"owuth2",
+						"token"
+					],
+					"variable": [
+						{
+							"key": "tenantid",
+							"value": "{{tenantID}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -7,30 +7,67 @@
 
 ### GET AAD Token
 
-#### URI: 
-    POST https://login.microsoftonline.com/:tenant_id/owuth2/token
+#### URI
 
-#### URI Params: 
+    POST https://login.microsoftonline.com/:tenantid/owuth2/token
+
+#### URI Params
+
     tenant_id: found in the Azure ad properties 
 
-#### BODY:
+#### BODY
+
+```properties
     grant_type: client_credentials
-    client_id: appid 
+    client_id: appid
     client_secret: thumprint or secret associated with client_id
     resource: https://management.azure.com
+```
 
 #### TESTS
 
+<<<<<<< HEAD
     var json = JSON.parse(responseBody);
+=======
+```javascript
+    var json = JSON.parse(responseBody):
+>>>>>>> 11730a3449968361c6774728684972e98355f487
     tests["Get AAD Token"] = !json.error && responseBody !== '' && responseBody !== '{}' && json.access_token !== '';
     postman.setEnvironmentVariable("bearerToken", json.access_token);
+```
 
-#### Get Data Lake Analytics Account
+#### Data Lake Analytics
 
 #### Create Job
 
+```http
+POST https://{accountName}.{adlaJobDnsSuffix}/BuildJob?api-version=2016-11-01
+```
 
-###### References
+##### URI Parameters
+
+```properties
+accountName: srthupiltestadla
+adlaDnsJobSuffix: 
+jobIdentity
+apiVersion
+```
+
+###### Request Body
+
+```properties
+name: testJob
+degreeOfParallelism
+degreeOfParallelismPercent
+logFilePatterns
+priority
+properties
+related
+type
+```
+
+##### References
+
 - [Azure Data Lake Analytics REST API]('https://docs.microsoft.com/en-us/rest/api/datalakeanalytics/')
 - [Job-Create]('https://docs.microsoft.com/en-us/rest/api/datalakeanalytics/job/create')
 - [How to Execute Azure REST APIs with Postman]('https://youtu.be/ujzrq8Fg9Gc')
